@@ -3,18 +3,20 @@
 }
 
 #greycol {
-    color: grey;
+    color:grey
 }
 
-.text-box div p {
+.text-box div>p {
     color: red;
 }
 
-p > h3 {
-    color:black;
-} 
+.text-box p:nth-of-type(3) {
+    color: green;
+}
 
-.text-box p.yellow {
+.text-box .yellow {
     color: yellow;
-}  
-
+}
+.text-box h3:nth-of-type(2) {
+    color:black;
+}
